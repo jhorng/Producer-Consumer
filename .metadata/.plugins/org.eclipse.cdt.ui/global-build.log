@@ -1,0 +1,1292 @@
+14:50:07 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/freertos.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/freertos.d" -MT"Src/freertos.o" -o "Src/freertos.o" "../Src/freertos.c"
+Finished building: ../Src/freertos.c
+ 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building file: ../Src/stm32f1xx_hal_msp.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/stm32f1xx_hal_msp.d" -MT"Src/stm32f1xx_hal_msp.o" -o "Src/stm32f1xx_hal_msp.o" "../Src/stm32f1xx_hal_msp.c"
+Finished building: ../Src/stm32f1xx_hal_msp.c
+ 
+Building file: ../Src/stm32f1xx_hal_timebase_TIM.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/stm32f1xx_hal_timebase_TIM.d" -MT"Src/stm32f1xx_hal_timebase_TIM.o" -o "Src/stm32f1xx_hal_timebase_TIM.o" "../Src/stm32f1xx_hal_timebase_TIM.c"
+Finished building: ../Src/stm32f1xx_hal_timebase_TIM.c
+ 
+Building file: ../Src/stm32f1xx_it.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/stm32f1xx_it.d" -MT"Src/stm32f1xx_it.o" -o "Src/stm32f1xx_it.o" "../Src/stm32f1xx_it.c"
+Finished building: ../Src/stm32f1xx_it.c
+ 
+Building file: ../Src/system_stm32f1xx.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/system_stm32f1xx.d" -MT"Src/system_stm32f1xx.o" -o "Src/system_stm32f1xx.o" "../Src/system_stm32f1xx.c"
+Finished building: ../Src/system_stm32f1xx.c
+ 
+Building file: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o" -o "Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o" "../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c"
+Finished building: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
+ 
+Building file: ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o" -o "Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o" "../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c"
+Finished building: ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c
+ 
+Building file: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.o" -o "Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.o" "../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c"
+Finished building: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c
+ 
+Building file: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/croutine.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/croutine.o" -o "Middlewares/Third_Party/FreeRTOS/Source/croutine.o" "../Middlewares/Third_Party/FreeRTOS/Source/croutine.c"
+Finished building: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
+ 
+Building file: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/event_groups.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/event_groups.o" -o "Middlewares/Third_Party/FreeRTOS/Source/event_groups.o" "../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c"
+Finished building: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
+ 
+Building file: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/list.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/list.o" -o "Middlewares/Third_Party/FreeRTOS/Source/list.o" "../Middlewares/Third_Party/FreeRTOS/Source/list.c"
+Finished building: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
+ 
+Building file: ../Middlewares/Third_Party/FreeRTOS/Source/queue.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/queue.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/queue.o" -o "Middlewares/Third_Party/FreeRTOS/Source/queue.o" "../Middlewares/Third_Party/FreeRTOS/Source/queue.c"
+Finished building: ../Middlewares/Third_Party/FreeRTOS/Source/queue.c
+ 
+Building file: ../Middlewares/Third_Party/FreeRTOS/Source/tasks.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/tasks.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/tasks.o" -o "Middlewares/Third_Party/FreeRTOS/Source/tasks.o" "../Middlewares/Third_Party/FreeRTOS/Source/tasks.c"
+Finished building: ../Middlewares/Third_Party/FreeRTOS/Source/tasks.c
+ 
+Building file: ../Middlewares/Third_Party/FreeRTOS/Source/timers.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Middlewares/Third_Party/FreeRTOS/Source/timers.d" -MT"Middlewares/Third_Party/FreeRTOS/Source/timers.o" -o "Middlewares/Third_Party/FreeRTOS/Source/timers.o" "../Middlewares/Third_Party/FreeRTOS/Source/timers.c"
+Finished building: ../Middlewares/Third_Party/FreeRTOS/Source/timers.c
+ 
+Building file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o" -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o" "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c"
+Finished building: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
+ 
+Building file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o" -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o" "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c"
+Finished building: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
+ 
+Building file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o" -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o" "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c"
+Finished building: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
+ 
+Building file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o" -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o" "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c"
+Finished building: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
+ 
+Building file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o" -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o" "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c"
+Finished building: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
+ 
+Building file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o" -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o" "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c"
+Finished building: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
+ 
+Building file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o" -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o" "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c"
+Finished building: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
+ 
+Building file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o" -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o" "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c"
+Finished building: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
+ 
+Building file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o" -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o" "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c"
+Finished building: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
+ 
+Building file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o" -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o" "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c"
+Finished building: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
+ 
+Building file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o" -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o" "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c"
+Finished building: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
+ 
+Building file: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o" -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o" "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c"
+Finished building: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11564	     16	   8248	  19828	   4d74	freeRTOS.elf
+ 
+15:00:27 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+../Src/main.c: In function 'main':
+../Src/main.c:171:22: error: 'slotSem' undeclared (first use in this function)
+   osSemaphoreRelease(slotSem);
+                      ^
+../Src/main.c:171:22: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Src/main.o] Error 1
+15:00:51 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+In file included from ../Src/main.c:51:0:
+../Src/main.c: In function 'main':
+C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h:654:1: warning: passing argument 1 of 'osSemaphoreRelease' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+ &os_semaphore_def_##name
+ ^
+../Src/main.c:171:22: note: in expansion of macro 'osSemaphore'
+   osSemaphoreRelease(osSemaphore(slotSem));
+                      ^
+C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h:674:10: note: expected 'osSemaphoreId {aka void *}' but argument is of type 'const osSemaphoreDef_t * {aka const struct os_semaphore_def *}'
+ osStatus osSemaphoreRelease (osSemaphoreId semaphore_id);
+          ^
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11812	     16	   8248	  20076	   4e6c	freeRTOS.elf
+ 
+15:02:22 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+../Src/main.c: In function 'main':
+../Src/main.c:171:22: error: 'slotSemHandler' undeclared (first use in this function)
+   osSemaphoreRelease(slotSemHandler);
+                      ^
+../Src/main.c:171:22: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Src/main.o] Error 1
+15:02:36 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11812	     16	   8248	  20076	   4e6c	freeRTOS.elf
+ 
+15:03:53 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  12056	     16	   8248	  20320	   4f60	freeRTOS.elf
+ 
+15:03:57 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+15:05:03 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11820	     16	   8248	  20084	   4e74	freeRTOS.elf
+ 
+15:05:10 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+15:05:12 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+15:05:56 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+15:06:36 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11820	     16	   8248	  20084	   4e74	freeRTOS.elf
+ 
+15:07:05 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11820	     16	   8248	  20084	   4e74	freeRTOS.elf
+ 
+15:07:24 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+15:07:47 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11824	     16	   8248	  20088	   4e78	freeRTOS.elf
+ 
+15:07:49 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+15:08:40 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11820	     16	   8248	  20084	   4e74	freeRTOS.elf
+ 
+15:08:44 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+15:17:27 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  12056	     16	   8248	  20320	   4f60	freeRTOS.elf
+ 
+15:17:37 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+15:20:04 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11820	     16	   8248	  20084	   4e74	freeRTOS.elf
+ 
+15:20:07 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+15:20:52 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11820	     16	   8248	  20084	   4e74	freeRTOS.elf
+ 
+15:20:57 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+15:21:22 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11828	     16	   8248	  20092	   4e7c	freeRTOS.elf
+ 
+15:21:29 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+15:21:31 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+15:21:59 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+15:22:01 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+15:22:27 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11836	     16	   8248	  20100	   4e84	freeRTOS.elf
+ 
+15:22:30 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+15:25:34 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11844	     16	   8248	  20108	   4e8c	freeRTOS.elf
+ 
+15:25:37 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+15:26:39 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11824	     16	   8248	  20088	   4e78	freeRTOS.elf
+ 
+15:26:41 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+15:27:02 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11832	     16	   8248	  20096	   4e80	freeRTOS.elf
+ 
+15:27:04 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+15:27:36 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11832	     16	   8248	  20096	   4e80	freeRTOS.elf
+ 
+15:27:38 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+15:28:02 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11832	     16	   8248	  20096	   4e80	freeRTOS.elf
+ 
+15:28:04 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+15:28:15 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+15:28:35 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+15:28:35 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+15:28:39 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+15:28:41 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+15:30:02 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+15:30:08 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  12068	     16	   8248	  20332	   4f6c	freeRTOS.elf
+ 
+15:32:57 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  12060	     16	   8248	  20324	   4f64	freeRTOS.elf
+ 
+15:32:59 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+15:33:19 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11824	     16	   8248	  20088	   4e78	freeRTOS.elf
+ 
+15:33:23 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+15:33:26 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+15:34:04 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11832	     16	   8248	  20096	   4e80	freeRTOS.elf
+ 
+15:34:06 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+15:35:42 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11832	     16	   8248	  20096	   4e80	freeRTOS.elf
+ 
+15:35:46 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+15:36:02 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+15:36:09 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11832	     16	   8248	  20096	   4e80	freeRTOS.elf
+ 
+15:36:23 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11832	     16	   8248	  20096	   4e80	freeRTOS.elf
+ 
+15:42:21 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+In file included from ../Src/main.c:51:0:
+../Src/main.c: In function 'main':
+C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h:646:24: warning: unused variable 'os_semaphore_def_slotSem' [-Wunused-variable]
+ const osSemaphoreDef_t os_semaphore_def_##name = { 0 }
+                        ^
+../Src/main.c:127:3: note: in expansion of macro 'osSemaphoreDef'
+   osSemaphoreDef(slotSem);
+   ^
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11580	     16	   8248	  19844	   4d84	freeRTOS.elf
+ 
+15:42:53 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+15:43:09 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+15:43:14 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11580	     16	   8248	  19844	   4d84	freeRTOS.elf
+ 
+15:43:39 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11576	     16	   8248	  19840	   4d80	freeRTOS.elf
+ 
+15:43:44 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+15:44:00 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11580	     16	   8248	  19844	   4d84	freeRTOS.elf
+ 
+15:46:14 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+15:46:18 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11828	     16	   8248	  20092	   4e7c	freeRTOS.elf
+ 
+15:46:48 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+16:07:01 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11580	     16	   8248	  19844	   4d84	freeRTOS.elf
+ 
+16:09:01 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11600	     16	   8248	  19864	   4d98	freeRTOS.elf
+ 
+16:09:04 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+16:09:38 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11580	     16	   8248	  19844	   4d84	freeRTOS.elf
+ 
+16:09:42 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+16:10:00 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11600	     16	   8248	  19864	   4d98	freeRTOS.elf
+ 
+16:10:17 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11600	     16	   8248	  19864	   4d98	freeRTOS.elf
+ 
+16:10:19 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+16:16:13 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  12108	     16	   8248	  20372	   4f94	freeRTOS.elf
+ 
+16:17:22 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  12100	     16	   8248	  20364	   4f8c	freeRTOS.elf
+ 
+16:17:35 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+16:17:39 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+16:20:25 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  12108	     16	   8248	  20372	   4f94	freeRTOS.elf
+ 
+16:20:32 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+16:20:34 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+16:22:39 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+16:22:43 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+16:22:48 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  12088	     16	   8248	  20352	   4f80	freeRTOS.elf
+ 
+16:22:51 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+16:23:44 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  12108	     16	   8248	  20372	   4f94	freeRTOS.elf
+ 
+16:26:45 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  12116	     16	   8248	  20380	   4f9c	freeRTOS.elf
+ 
+16:26:56 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+16:27:54 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  12116	     16	   8248	  20380	   4f9c	freeRTOS.elf
+ 
+16:28:16 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  12128	     16	   8248	  20392	   4fa8	freeRTOS.elf
+ 
+16:28:19 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+16:29:05 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  12116	     16	   8248	  20380	   4f9c	freeRTOS.elf
+ 
+16:30:33 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  12116	     16	   8248	  20380	   4f9c	freeRTOS.elf
+ 
+16:31:42 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
+16:36:30 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+Building file: ../Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\TARUC\Desktop\freeRTOS\freeRTOS\Debug
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32F103xB -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Device/ST/STM32F1xx/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Drivers/CMSIS/Include" -I"C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Src/main.d" -MT"Src/main.o" -o "Src/main.o" "../Src/main.c"
+Finished building: ../Src/main.c
+ 
+Building target: freeRTOS.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -specs=nosys.specs -specs=nano.specs -T"../STM32F103C8Tx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "freeRTOS.elf" @"objects.list"   -lm
+Finished building target: freeRTOS.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "freeRTOS.elf" "freeRTOS.bin"
+arm-none-eabi-size "freeRTOS.elf"
+   text	   data	    bss	    dec	    hex	filename
+  12112	     16	   8248	  20376	   4f98	freeRTOS.elf
+ 
+16:36:33 **** Incremental Build of configuration Debug for project freeRTOS ****
+make all 
+make: Nothing to be done for `all'.
