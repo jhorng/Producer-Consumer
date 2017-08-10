@@ -1,0 +1,14 @@
+/*
+ * producer.c
+ *
+ *  Created on: Aug 10, 2017
+ *      Author: Jaan Horng
+ */
+
+xSemaphoreTake(slotSemHandle, portMAX_DELAY);
+
+	  osMutexWait(queueMutHandle, portMAX_DELAY);
+	  osMessagePut(itemQueueHandle, product, 1000);
+	  osMutexRelease(queueMutHandle);
+
+	  xSemaphoreGive(itemSemHandle);

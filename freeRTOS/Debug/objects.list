@@ -21,6 +21,7 @@
 "Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o"
 "Src/freertos.o"
 "Src/main.o"
+"Src/producer_consumer.o"
 "Src/stm32f1xx_hal_msp.o"
 "Src/stm32f1xx_hal_timebase_TIM.o"
 "Src/stm32f1xx_it.o"

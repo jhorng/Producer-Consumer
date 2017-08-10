@@ -51,20 +51,24 @@
 #include "cmsis_os.h"
 
 /* USER CODE BEGIN Includes */
-
+#include <stdlib.h>
+#include <stdio.h>
+#include "producer_consumer.h"
+#include <time.h>
 /* USER CODE END Includes */
 
 /* Private variables ---------------------------------------------------------*/
 osThreadId defaultTaskHandle;
 osThreadId task01Handle;
 osThreadId task02Handle;
+osMessageQId itemQueueHandle;
 osMutexId queueMutHandle;
 osSemaphoreId slotSemHandle;
 osSemaphoreId itemSemHandle;
 
 /* USER CODE BEGIN PV */
 /* Private variables ---------------------------------------------------------*/
-
+volatile uint8_t value=0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -76,7 +80,7 @@ void StartTask02(void const * argument);
 
 /* USER CODE BEGIN PFP */
 /* Private function prototypes -----------------------------------------------*/
-
+extern void initialise_monitor_handles();
 /* USER CODE END PFP */
 
 /* USER CODE BEGIN 0 */
@@ -87,7 +91,7 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
-
+	initialise_monitor_handles();
   /* USER CODE END 1 */
 
   /* MCU Configuration----------------------------------------------------------*/
@@ -125,15 +129,16 @@ int main(void)
   /* Create the semaphores(s) */
   /* definition and creation of slotSem */
   //osSemaphoreDef(slotSem);
-  //slotSemHandle = osSemaphoreCreate(osSemaphore(slotSem), 3);
-  slotSemHandle = xSemaphoreCreateCounting(5, 0);
+  //slotSemHandle = osSemaphoreCreate(osSemaphore(slotSem), 5);
 
   /* definition and creation of itemSem */
-  osSemaphoreDef(itemSem);
-  itemSemHandle = osSemaphoreCreate(osSemaphore(itemSem), 5);
+  //osSemaphoreDef(itemSem);
+  //itemSemHandle = osSemaphoreCreate(osSemaphore(itemSem), 5);
 
   /* USER CODE BEGIN RTOS_SEMAPHORES */
   /* add semaphores, ... */
+  slotSemHandle = xSemaphoreCreateCounting(5,5);
+  itemSemHandle = xSemaphoreCreateCounting(5,0);
   /* USER CODE END RTOS_SEMAPHORES */
 
   /* USER CODE BEGIN RTOS_TIMERS */
@@ -146,7 +151,7 @@ int main(void)
   defaultTaskHandle = osThreadCreate(osThread(defaultTask), NULL);
 
   /* definition and creation of task01 */
-  osThreadDef(task01, StartTask01, osPriorityNormal, 0, 256);
+  osThreadDef(task01, StartTask01, osPriorityNormal, 0, 128);
   task01Handle = osThreadCreate(osThread(task01), NULL);
 
   /* definition and creation of task02 */
@@ -157,6 +162,10 @@ int main(void)
 
   /* USER CODE END RTOS_THREADS */
 
+  /* Create the queue(s) */
+  /* definition and creation of itemQueue */
+  osMessageQDef(itemQueue, 5, uint16_t);
+  itemQueueHandle = osMessageCreate(osMessageQ(itemQueue), NULL);
   /* USER CODE BEGIN RTOS_QUEUES */
   /* add queues, ... */
   /* USER CODE END RTOS_QUEUES */
@@ -286,15 +295,23 @@ void StartDefaultTask(void const * argument)
 void StartTask01(void const * argument)
 {
   /* USER CODE BEGIN StartTask01 */
-	//xSemaphoreTake(slotSemHandle, portMAX_DELAY);
+	//volatile uint8_t value=0;
   /* Infinite loop */
   for(;;)
   {
-	  osMutexWait(queueMutHandle, portMAX_DELAY);
+	  /*osMutexWait(queueMutHandle, portMAX_DELAY);
 	  HAL_GPIO_TogglePin(amberLED_GPIO_Port, amberLED_Pin);
 	  HAL_Delay(200);
 	  osMutexRelease(queueMutHandle);
-	  HAL_Delay(100);
+	  HAL_Delay(100);*/
+	  //produce(pro++);
+	  xSemaphoreTake(slotSemHandle, portMAX_DELAY);
+	  osMutexWait(queueMutHandle, portMAX_DELAY);
+	  osMessagePut(itemQueueHandle, value, 1000);
+	  value++;
+	  osMutexRelease(queueMutHandle);
+
+	  xSemaphoreGive(itemSemHandle);
   }
   /* USER CODE END StartTask01 */
 }
@@ -303,11 +320,11 @@ void StartTask01(void const * argument)
 void StartTask02(void const * argument)
 {
   /* USER CODE BEGIN StartTask02 */
-	int i=0;
+	//int i=0;
   /* Infinite loop */
   for(;;)
   {
-	  HAL_GPIO_TogglePin(yellowLED_GPIO_Port, yellowLED_Pin);
+	  /*HAL_GPIO_TogglePin(yellowLED_GPIO_Port, yellowLED_Pin);
 	  HAL_Delay(500);
 	  if(i++ == 0){
 		osMutexWait(queueMutHandle, osWaitForever);
@@ -318,7 +335,16 @@ void StartTask02(void const * argument)
 	  else if(i == 20){
 		  i=0;
 	  }
-	  //xSemaphoreGive(slotSemHandle);
+	  //xSemaphoreGive(slotSemHandle);*/
+	  //consume();
+	  xSemaphoreTake(itemSemHandle, portMAX_DELAY);
+
+	  osMutexWait(queueMutHandle, portMAX_DELAY);
+	  osMessageGet(itemQueueHandle, 500);
+	  value--;
+	  osMutexRelease(queueMutHandle);
+
+	  xSemaphoreGive(slotSemHandle);
   }
   /* USER CODE END StartTask02 */
 }

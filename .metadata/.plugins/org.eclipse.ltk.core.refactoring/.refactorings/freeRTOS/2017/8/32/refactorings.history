@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;freeRTOS/Src/producer.c&apos; to &apos;producer_consumer.c&apos;" description="Rename resource &apos;producer.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Src/producer.c" name="producer_consumer.c" stamp="1502355273415" updateReferences="true"/>
+</session>

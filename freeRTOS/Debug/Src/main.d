@@ -41,7 +41,8 @@ Src/main.o: ../Src/main.c \
  C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h \
  C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h \
  C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
- C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+ C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
+ C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc/producer_consumer.h
 
 C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc/main.h:
 
@@ -128,3 +129,5 @@ C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source
 C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h:
 
 C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h:
+
+C:/Users/TARUC/Desktop/freeRTOS/freeRTOS/Inc/producer_consumer.h:

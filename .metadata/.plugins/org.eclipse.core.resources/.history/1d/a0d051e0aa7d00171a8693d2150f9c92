@@ -1,0 +1,37 @@
+/*
+ * producer_consumer.c
+ *
+ *  Created on: Aug 10, 2017
+ *      Author: Jaan Horng
+ */
+
+#include "stm32f1xx_hal.h"
+#include "cmsis_os.h"
+
+extern osMessageQId itemQueueHandle;
+extern osMutexId queueMutHandle;
+extern osSemaphoreId slotSemHandle;
+extern osSemaphoreId itemSemHandle;
+
+osEvent product;
+
+void produce(uint8_t value){
+	xSemaphoreTake(slotSemHandle, portMAX_DELAY);
+
+    osMutexWait(queueMutHandle, portMAX_DELAY);
+    printf();
+    osMessagePut(itemQueueHandle, value, 1000);
+	osMutexRelease(queueMutHandle);
+
+	xSemaphoreGive(itemSemHandle);
+}
+
+void consume(){
+	xSemaphoreTake(itemSemHandle, portMAX_DELAY);
+
+	osMutexWait(queueMutHandle, portMAX_DELAY);
+	product = osMessageGet(itemQueueHandle, 500);
+	osMutexRelease(queueMutHandle);
+
+	xSemaphoreGive(slotSemHandle);
+}
