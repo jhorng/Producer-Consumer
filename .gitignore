@@ -1,0 +1,4 @@
+#for SW4STM32 
+freeRTOS/Debug/*
+!freeRTOS Sensor/Debug/*.mk
+

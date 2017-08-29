@@ -53,30 +53,31 @@
 /* USER CODE BEGIN Includes */
 #include <stdlib.h>
 #include <stdio.h>
-#include "producer_consumer.h"
-#include <time.h>
+#include <stdint.h>
 /* USER CODE END Includes */
 
 /* Private variables ---------------------------------------------------------*/
 osThreadId defaultTaskHandle;
-osThreadId task01Handle;
-osThreadId task02Handle;
+osThreadId producerHandle;
+osThreadId consumerHandle;
 osMessageQId itemQueueHandle;
 osMutexId queueMutHandle;
+osMutexId printMutHandle;
 osSemaphoreId slotSemHandle;
 osSemaphoreId itemSemHandle;
 
 /* USER CODE BEGIN PV */
 /* Private variables ---------------------------------------------------------*/
-volatile uint8_t value=0;
+static uint32_t value=5;
+osMailQId mailBoxHandle;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 void StartDefaultTask(void const * argument);
-void StartTask01(void const * argument);
-void StartTask02(void const * argument);
+void taskProducer(void const * argument);
+void taskConsumer(void const * argument);
 
 /* USER CODE BEGIN PFP */
 /* Private function prototypes -----------------------------------------------*/
@@ -114,7 +115,7 @@ int main(void)
   MX_GPIO_Init();
 
   /* USER CODE BEGIN 2 */
-
+  printf("Start printing...\n");
   /* USER CODE END 2 */
 
   /* Create the mutex(es) */
@@ -122,18 +123,15 @@ int main(void)
   osMutexDef(queueMut);
   queueMutHandle = osMutexCreate(osMutex(queueMut));
 
+  /* definition and creation of printMut */
+  osMutexDef(printMut);
+  printMutHandle = osMutexCreate(osMutex(printMut));
+
   /* USER CODE BEGIN RTOS_MUTEX */
   /* add mutexes, ... */
   /* USER CODE END RTOS_MUTEX */
 
   /* Create the semaphores(s) */
-  /* definition and creation of slotSem */
-  //osSemaphoreDef(slotSem);
-  //slotSemHandle = osSemaphoreCreate(osSemaphore(slotSem), 5);
-
-  /* definition and creation of itemSem */
-  //osSemaphoreDef(itemSem);
-  //itemSemHandle = osSemaphoreCreate(osSemaphore(itemSem), 5);
 
   /* USER CODE BEGIN RTOS_SEMAPHORES */
   /* add semaphores, ... */
@@ -150,13 +148,13 @@ int main(void)
   osThreadDef(defaultTask, StartDefaultTask, osPriorityNormal, 0, 128);
   defaultTaskHandle = osThreadCreate(osThread(defaultTask), NULL);
 
-  /* definition and creation of task01 */
-  osThreadDef(task01, StartTask01, osPriorityNormal, 0, 128);
-  task01Handle = osThreadCreate(osThread(task01), NULL);
+  /* definition and creation of producer */
+  osThreadDef(producer, taskProducer, osPriorityNormal, 0, 256);
+  producerHandle = osThreadCreate(osThread(producer), NULL);
 
-  /* definition and creation of task02 */
-  osThreadDef(task02, StartTask02, osPriorityNormal, 0, 128);
-  task02Handle = osThreadCreate(osThread(task02), NULL);
+  /* definition and creation of consumer */
+  osThreadDef(consumer, taskConsumer, osPriorityNormal, 0, 128);
+  consumerHandle = osThreadCreate(osThread(consumer), NULL);
 
   /* USER CODE BEGIN RTOS_THREADS */
 
@@ -166,6 +164,7 @@ int main(void)
   /* definition and creation of itemQueue */
   osMessageQDef(itemQueue, 5, uint16_t);
   itemQueueHandle = osMessageCreate(osMessageQ(itemQueue), NULL);
+
   /* USER CODE BEGIN RTOS_QUEUES */
   /* add queues, ... */
   /* USER CODE END RTOS_QUEUES */
@@ -283,70 +282,64 @@ void StartDefaultTask(void const * argument)
 {
 
   /* USER CODE BEGIN 5 */
+
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1);
   }
   /* USER CODE END 5 */ 
 }
 
-/* StartTask01 function */
-void StartTask01(void const * argument)
+/* taskProducer function */
+void taskProducer(void const * argument)
 {
-  /* USER CODE BEGIN StartTask01 */
-	//volatile uint8_t value=0;
+  /* USER CODE BEGIN taskProducer */
   /* Infinite loop */
   for(;;)
   {
-	  /*osMutexWait(queueMutHandle, portMAX_DELAY);
-	  HAL_GPIO_TogglePin(amberLED_GPIO_Port, amberLED_Pin);
-	  HAL_Delay(200);
-	  osMutexRelease(queueMutHandle);
-	  HAL_Delay(100);*/
-	  //produce(pro++);
 	  xSemaphoreTake(slotSemHandle, portMAX_DELAY);
+
 	  osMutexWait(queueMutHandle, portMAX_DELAY);
-	  osMessagePut(itemQueueHandle, value, 1000);
-	  value++;
+	  	  value++;
+	  	  osMessagePut(itemQueueHandle, value, portMAX_DELAY);
+	  osMutexRelease(queueMutHandle);
+
+	  osMutexWait(queueMutHandle, portMAX_DELAY);
+	  	  if(osThreadGetId() == producerHandle){
+	        printf("Producer produces %lu\n", value);
+	        osDelay(200);
+	  	  }
 	  osMutexRelease(queueMutHandle);
 
 	  xSemaphoreGive(itemSemHandle);
   }
-  /* USER CODE END StartTask01 */
+  /* USER CODE END taskProducer */
 }
 
-/* StartTask02 function */
-void StartTask02(void const * argument)
+/* taskConsumer function */
+void taskConsumer(void const * argument)
 {
-  /* USER CODE BEGIN StartTask02 */
-	//int i=0;
+  /* USER CODE BEGIN taskConsumer */
+	osEvent mail;
   /* Infinite loop */
   for(;;)
   {
-	  /*HAL_GPIO_TogglePin(yellowLED_GPIO_Port, yellowLED_Pin);
-	  HAL_Delay(500);
-	  if(i++ == 0){
-		osMutexWait(queueMutHandle, osWaitForever);
-	  }
-	  else if(i == 10){
-		  osMutexRelease(queueMutHandle);
-	  }
-	  else if(i == 20){
-		  i=0;
-	  }
-	  //xSemaphoreGive(slotSemHandle);*/
-	  //consume();
 	  xSemaphoreTake(itemSemHandle, portMAX_DELAY);
 
 	  osMutexWait(queueMutHandle, portMAX_DELAY);
-	  osMessageGet(itemQueueHandle, 500);
-	  value--;
+	  	  mail=osMessageGet(itemQueueHandle, portMAX_DELAY);
+	  osMutexRelease(queueMutHandle);
+
+	  osMutexWait(queueMutHandle, portMAX_DELAY);
+	  	  if(osThreadGetId() == consumerHandle){
+	  	    printf("Consumer consumes %lu\n", mail.value.v);
+	  	    osDelay(200);
+	  	  }
 	  osMutexRelease(queueMutHandle);
 
 	  xSemaphoreGive(slotSemHandle);
   }
-  /* USER CODE END StartTask02 */
+  /* USER CODE END taskConsumer */
 }
 
 /**

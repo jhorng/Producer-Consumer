@@ -2,9 +2,9 @@
 FREERTOS.CountingSemaphores01=slotSem,5,Dynamic,NULL;itemSem,5,Dynamic,NULL
 FREERTOS.FootprintOK=true
 FREERTOS.IPParameters=Tasks01,configUSE_TIMERS,FootprintOK,configTOTAL_HEAP_SIZE,Mutexes01,configUSE_COUNTING_SEMAPHORES,CountingSemaphores01,Queues01
-FREERTOS.Mutexes01=queueMut
+FREERTOS.Mutexes01=queueMut;printMut
 FREERTOS.Queues01=itemQueue,5,uint16_t,NULL,Dynamic,NULL,NULL
-FREERTOS.Tasks01=defaultTask,0,128,StartDefaultTask,Default,NULL,Dynamic,NULL,NULL;task01,0,256,StartTask01,Default,NULL,Dynamic,NULL,NULL;task02,0,128,StartTask02,Default,NULL,Dynamic,NULL,NULL
+FREERTOS.Tasks01=defaultTask,0,128,StartDefaultTask,Default,NULL,Dynamic,NULL,NULL;producer,0,256,taskProducer,Default,NULL,Dynamic,NULL,NULL;consumer,0,128,taskConsumer,Default,NULL,Dynamic,NULL,NULL
 FREERTOS.configTOTAL_HEAP_SIZE=6144
 FREERTOS.configUSE_COUNTING_SEMAPHORES=1
 FREERTOS.configUSE_TIMERS=1
